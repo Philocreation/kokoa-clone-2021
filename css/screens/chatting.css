@@ -1,3 +1,27 @@
-.chatting-screen {
+#chatting-screen {
   background-color: #abc1d1;
+  height: 10000vh;
+}
+
+#chat-screen .alt-header,
+#chat-screen .status-bar {
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  background-color: #abc1d1;
+  box-sizing: border-box;
+}
+
+#chat-screen .status-bar {
+  z-index: 2;
+}
+
+#chat-screen .alt-header {
+  top: 10px;
+  z-index: 10;
+}
+
+.chat__timestamp {
+  padding-top: 100px;
+  text-align: center;
 }
